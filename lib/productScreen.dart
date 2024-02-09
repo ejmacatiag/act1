@@ -55,7 +55,7 @@ class ProductScreen extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(bottom: 20,right: 20),
+              padding: const EdgeInsets.only(bottom: 20, right: 20),
               child: Row(
                 children: [
                   Padding(
@@ -129,11 +129,13 @@ class ProductScreen extends StatelessWidget {
                           children: [
                             Text(
                               'Calories',
-                              style: TextStyle(fontSize: 12, color: Colors.white),
+                              style:
+                                  TextStyle(fontSize: 12, color: Colors.white),
                             ),
                             Text(
                               '90',
-                              style: TextStyle(fontSize: 25, color: Colors.white),
+                              style:
+                                  TextStyle(fontSize: 25, color: Colors.white),
                             ),
                           ],
                         ),
@@ -172,8 +174,7 @@ class ProductScreen extends StatelessWidget {
                                 width: 110,
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(20),
-                                    border:
-                                        Border.all(color: Colors.yellow)),
+                                    border: Border.all(color: Colors.yellow)),
                                 child: Row(
                                   children: [
                                     IconButton(
@@ -227,7 +228,8 @@ class ProductScreen extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding:
+                        const EdgeInsets.only(top: 10, left: 15, right: 15),
                     child: Row(
                       children: [
                         IconButton(
@@ -248,31 +250,8 @@ class ProductScreen extends StatelessWidget {
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Row(
-                      children: [
-                        Image.asset(
-                          'assets/images/image 12.png',
-                          height: 60,
-                        ),const SizedBox(width: 30,),
-                        const Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Padding(
-                              padding: EdgeInsets.only(bottom: 5),
-                              child: Text('Burger Overload', style: TextStyle(color: Colors.white, fontSize: 15),),
-                            ),
-                            Padding(
-                              padding: EdgeInsets.only(bottom: 5),
-                              child: Text('\$9.43', style: TextStyle(color: Colors.grey, fontSize: 15),),
-                            ),
-                          ],
-                        ),
-                        Spacer(),
-                        Text('x1', style: TextStyle(color: Colors.white, fontSize: 25),)
-                      ],
-                    ),
+                  SizedBox(
+                    height: 30,
                   ),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
@@ -281,25 +260,170 @@ class ProductScreen extends StatelessWidget {
                         Image.asset(
                           'assets/images/image 12.png',
                           height: 60,
-                        ),const SizedBox(width: 30,),
+                        ),
+                        const SizedBox(
+                          width: 30,
+                        ),
                         const Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Padding(
                               padding: EdgeInsets.only(bottom: 5),
-                              child: Text('Burger Overload', style: TextStyle(color: Colors.white, fontSize: 15),),
+                              child: Text(
+                                'Burger Overload',
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 15),
+                              ),
                             ),
                             Padding(
                               padding: EdgeInsets.only(bottom: 5),
-                              child: Text('\$9.43', style: TextStyle(color: Colors.grey, fontSize: 15),),
+                              child: Text(
+                                '\$9.43',
+                                style:
+                                    TextStyle(color: Colors.grey, fontSize: 15),
+                              ),
                             ),
                           ],
                         ),
                         Spacer(),
-                        Text('x1', style: TextStyle(color: Colors.white, fontSize: 25),)
+                        Text(
+                          'x1',
+                          style: TextStyle(color: Colors.white, fontSize: 25),
+                        )
                       ],
                     ),
                   ),
+                  SizedBox(
+                    height: 38,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      children: [
+                        Image.asset(
+                          'assets/images/image 12.png',
+                          height: 60,
+                        ),
+                        const SizedBox(
+                          width: 30,
+                        ),
+                        const Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Padding(
+                              padding: EdgeInsets.only(bottom: 5),
+                              child: Text(
+                                'Burger ni Aling Bebang',
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 15),
+                              ),
+                            ),
+                            Padding(
+                              padding: EdgeInsets.only(bottom: 5),
+                              child: Text(
+                                '\$9.43',
+                                style:
+                                    TextStyle(color: Colors.grey, fontSize: 15),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Spacer(),
+                        Text(
+                          'x1',
+                          style: TextStyle(color: Colors.white, fontSize: 25),
+                        )
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 38,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      children: [
+                        Image.asset(
+                          'assets/images/image 12.png',
+                          height: 60,
+                        ),
+                        const SizedBox(
+                          width: 30,
+                        ),
+                        const Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Padding(
+                              padding: EdgeInsets.only(bottom: 5),
+                              child: Text(
+                                'Angel\'s Burger',
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 15),
+                              ),
+                            ),
+                            Padding(
+                              padding: EdgeInsets.only(bottom: 5),
+                              child: Text(
+                                '\$9.43',
+                                style:
+                                    TextStyle(color: Colors.grey, fontSize: 15),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Spacer(),
+                        Text(
+                          'x1',
+                          style: TextStyle(color: Colors.white, fontSize: 25),
+                        )
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 38,
+                  ),
+                  Padding(
+                    padding:
+                        const EdgeInsets.only(left: 20, right: 10, bottom: 20),
+                    child: Row(
+                      children: [
+                        Text(
+                          '3 Items',
+                          style: TextStyle(color: Colors.white, fontSize: 15),
+                        ),
+                        Spacer(),
+                        Container(
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(8),
+                              border: Border.all(color: Colors.yellow)),
+                          child: Row(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.all(10.0),
+                                child: Text(
+                                  '\$38.25',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 13),
+                                ),
+                              ),
+                              Container(
+                                child: Padding(
+                                  padding: const EdgeInsets.all(5.0),
+                                  child: Text(
+                                    'Buy now',
+                                    style: TextStyle(fontSize: 20),
+                                  ),
+                                ),
+                                decoration: BoxDecoration(
+                                    color: Colors.yellow,
+                                    borderRadius: BorderRadius.circular(8)),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  )
                 ],
               ),
             ),

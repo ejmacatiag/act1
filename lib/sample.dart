@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     Item(name: 'Item 1', imageUrl: 'url1', price: 20.0, quantity: 5),
     Item(name: 'Item 2', imageUrl: 'url2', price: 15.0, quantity: 3),
     Item(name: 'Item 3', imageUrl: 'url3', price: 25.0, quantity: 7),
-    // Add more items as needed
+    
   ];
 
   @override
